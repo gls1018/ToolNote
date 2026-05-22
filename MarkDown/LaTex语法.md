@@ -121,6 +121,16 @@ $$
 
 
 
+
+### 向上取整和向下取整
+
+- \lfloor abc \rfloor : 向下取整 $\lfloor abc \rfloor$
+
+
+
+- \lceil abc \rceil :  向上取整  $\lceil abc \rceil$  
+
+
 ### 其它
 
 - 下标 $S_n$  S_n
