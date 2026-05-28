@@ -1,4 +1,4 @@
-## 希腊字母
+## 1. 希腊字母
 
 - $\alpha$  \alpha
 - $\beta$  \beta
@@ -19,7 +19,7 @@
 
 ## 数学公式
 
-### 数学模式
+### 1. 数学模式
 
 行内数学模式
 
@@ -45,20 +45,20 @@ E = mc^2
 $$
 
 
-### 分数
+### 2. 分数
 
 - 普通分数  $\frac {abc}{xyz}$    \frac{abc}{xyz}
 - 强制分数 $\dfrac{abc}{xyz}$    \dfrac{abc}{xyz}
 - 小型分数 $\tfrac{abc}{xyz}$     \tfrac{abc}{xyz}
 
-### 根号
+### 3. 根号
 
 - 平方根  $\sqrt{xyz}$    \sqrt{xyz}
 - n次方根  $\sqrt[n]{xyz}$   \sqrt[n]{xyz}
 
 
 
-### 指数和对数
+### 4. 指数和对数
 
 - 指数  ${abc}^{xyz}$     {abc}^{xyz}
 - 自然指数 $e^{xy}$      e^{xy}
@@ -67,11 +67,11 @@ $$
 - 底数为ab的对数 $\log_{ab} x$  \log_{ab} x
 - 
 
-### 微分和导数
+### 5. 微分和导数
 
 
 
-### 箭头符号
+### 6. 箭头符号
 
 - 右箭头  $\to$      \to
 - 长右箭头 $\longrightarrow$    \longrightarrow
@@ -83,7 +83,7 @@ $$
 
 
 
-### 求和
+### 7. 求和
 
 $\sum$     \sum
 
@@ -122,13 +122,51 @@ $$
 
 
 
-### 向上取整和向下取整
+### 8. 向上取整和向下取整
 
 - \lfloor abc \rfloor : 向下取整 $\lfloor abc \rfloor$
 
-
-
 - \lceil abc \rceil :  向上取整  $\lceil abc \rceil$  
+
+
+
+### 9. 分段函数
+
+```cpp
+\[
+f(x) =
+\begin{cases}
+x^2+1,  & x>1 \\
+x^2,    & x=1 \\
+f(x+1), & x<1
+\end{cases}
+\]
+```
+
+
+
+
+
+
+\[
+f(x) =
+\begin{cases}
+x^2 + 1, & x>1 \\
+x^2,     & x = 1 \\
+f(x+1),  & x<1 \\
+\end{cases}
+\]
+
+- `cases` 用来生成左大括号分段函数
+
+- `&` 用于对齐
+
+- `\\` 表示换行
+
+- `\[` `\]` 表示行间公式
+
+
+
 
 
 ### 其它
